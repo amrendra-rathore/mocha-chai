@@ -1,1 +1,5 @@
+#Add a file .gitignore in root directory and add node_modules and package-lock.json into it.
+
 node_modules
+
+package-lock.json
