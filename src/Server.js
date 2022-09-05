@@ -24,7 +24,6 @@ module.exports = class Server {
   constructor(config) {
     this.config = config;
     this.app = express();
-    // console.log(config);
   }
 
   initBodyParser() {

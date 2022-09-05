@@ -3,16 +3,21 @@ const ts = require('gulp-typescript');
 const mocha = require("gulp-mocha");
 const babel = require('gulp-babel');
 
+// import gulp from "gulp";
+// import ts from'gulp-typescript';
+// import mocha from "gulp-mocha";
+// import babel from 'gulp-babel';
+
 // gulp.task("set-local-node-env", (done) => {
 //   process.env.ENV = "local";
 //   done();
 // });
 
-const srcVal = "src/test/testCase.spec.js";
+const srcVal = "src/test/authtest.spec.js";
 
 const mochaOptions = {
   reporter: "list",
-  timeout: 5000,
+  mongoosetimeout: 5000,
   exit: true,
 };
 
